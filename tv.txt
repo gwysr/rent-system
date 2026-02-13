@@ -1,1 +1,22 @@
-http://肥猫.com/tv/
+{
+  "spider": "https://肥猫.com/jar/custom.jar", 
+  "sites": [
+    {
+      "key": "feimao_csp_1",
+      "name": "肥猫专线1",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "https://肥猫.com/api/v1"
+    }
+  ],
+  "lives": [
+    {
+      "group": "直播",
+      "channels": [
+        { "name": "CCTV1", "urls": ["http://xxx.m3u8"] }
+      ]
+    }
+  ]
+}
